@@ -1,0 +1,8 @@
+.photo-item {
+    max-width: 120px;
+    width: calc((100% - 2 * 15px) / 3);
+
+    &:not(:last-of-type) {
+        margin-right: 15px;
+    }
+}

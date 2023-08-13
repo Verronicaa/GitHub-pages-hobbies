@@ -1,0 +1,19 @@
+.social-networks {
+    display: flex;
+    justify-content: center;
+
+    &__link {
+        color: $bright-color;
+        font-size: 1.5rem;
+
+        &:not(:last-of-type) {
+            margin-right: 45px;
+        }
+
+        &:hover {
+            transform: scale(1.3);
+            transition: .4s linear;
+
+        }
+    }
+}

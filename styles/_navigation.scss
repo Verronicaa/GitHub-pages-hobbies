@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+
+    &__link {
+        font-weight: 200;
+        font-size: 1rem;
+        letter-spacing: 3px;
+
+        &:hover {
+            color: $bright-color;
+        }
+    }
+}
