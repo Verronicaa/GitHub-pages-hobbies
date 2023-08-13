@@ -17,3 +17,11 @@
         }
     }
 }
+
+@media screen and (max-width: 566px) {
+    .social-networks {
+        &__link {
+            font-size: 1.1rem;
+        }
+    }
+}

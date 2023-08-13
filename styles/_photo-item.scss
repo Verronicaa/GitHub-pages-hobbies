@@ -6,3 +6,17 @@
         margin-right: 15px;
     }
 }
+
+@media screen and (max-width: 566px) {
+    .photo-item {
+        max-width: 100px;
+
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .photo-item {
+        max-width: 80px;
+
+    }
+}

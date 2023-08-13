@@ -17,3 +17,54 @@
     }
 
 }
+
+@media screen and (max-width: 965px) {
+    .banner-photo {
+        max-width: 350px;
+
+        &::before {
+            font-size: 3.5rem;
+
+        }
+    }
+}
+
+@media screen and (max-width: 746px) {
+    .banner-photo {
+        max-width: 250px;
+
+        &::before {
+            font-size: 2.5rem;
+            top: 75px;
+            right: 165px;
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .banner-photo {
+        max-width: 200px;
+
+        &::before {
+            font-size: 2rem;
+            right: 115px;
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .banner-photo {
+        max-width: 150px;
+
+        &::before {
+            font-size: 1.3rem;
+            top: 65px;
+            right: 100px;
+
+        }
+    }
+}

@@ -12,3 +12,20 @@
         }
     }
 }
+
+@media screen and (max-width: 566px) {
+    .navigation {
+        &__link {
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .navigation {
+        &__link {
+            font-size: 0.7rem;
+        }
+    }
+}
